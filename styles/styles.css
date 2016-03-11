@@ -1,17 +1,117 @@
 p {
-  font-family: 'Amatic SC', cursive;
-  font-size: 4em;
-  color: green;
+  /*font-family: Helvetica;*/
+  font-family: Futura, Trebuchet;
+  font-size: 1em;
+  color: #000000;
   text-align: center;
-  /*margin-left: 40%;*/
+  margin-top: 1%;
+}
+
+h1 {
+  /*font-family: Helvetica;*/
+  font-family: Futura, Trebuchet;
+  font-size: 2em;
+  color: #000000;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: -20px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  color: #000000;
+  text-align: center;
   margin-top: 3%;
 }
 
-/*body {
-  background-image: url("public/img/skate.jpg");
+.fa {
+  color: #424242;
+}
+body {
+  /*background-color: #cbc9d2;*/
+}
+
+.container {
+  padding: 10px;
+  /*background-color: #eadde1;*/
+  /*background-color: gray;*/
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+
+.row-top {
+  background-color: #eadde1;
+  padding: 20px;
+  /*margin: 5px;*/
+  border: solid;
+  border-width: 1px;
+}
+
+.row-bottom {
+  background-color: #d2a484;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-width: 1px;
+}
+
+.profile-card-one {
+  background-color: #df4078;
+  margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.profile-card-two {
+  background-color: #f0d151;
+  margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.profile-card-three {
+  background-color: #8DC63F;
+  margin-bottom: 60px;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+/*.profile-info {
+  color: brown;
+  padding: 25px;
+  position: relative;
+  margin-top: 15px;
 }*/
 
-body {
-  background: url('little-louise-logo.jpg') no-repeat fixed center;
-  /*background-position: 30% 40%;*/
+.contact-icons {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  top: 255px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  max-width: 120px;
+  border: solid;
+  border-width: 1px;
 }
