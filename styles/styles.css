@@ -1,19 +1,17 @@
 p {
-  /*font-family: Helvetica;*/
   font-family: Futura, Trebuchet;
   font-size: 1em;
   color: #000000;
   text-align: center;
-  margin-top: 1%;
+  margin-top: -2%;
 }
 
 h1 {
-  /*font-family: Helvetica;*/
   font-family: Futura, Trebuchet;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #000000;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 5px;
   margin-bottom: -20px;
 }
 
@@ -52,8 +50,8 @@ body {
 .row-bottom {
   background-color: #d2a484;
   padding-top: 100px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
   padding-bottom: 20px;
   border-right: solid;
   border-bottom: solid;
@@ -66,9 +64,9 @@ body {
   margin-bottom: 20px;
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  font-size: 1em;
-  margin-right: 30%;
-  margin-left: 30%;
+  font-size: 1.5em;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .profile-card-two {
@@ -76,27 +74,20 @@ body {
   margin-bottom: 20px;
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  font-size: 1em;
-  margin-right: 30%;
-  margin-left: 30%;
+  font-size: 1.5em;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .profile-card-three {
   background-color: #8DC63F;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  font-size: 1em;
-  margin-right: 30%;
-  margin-left: 30%;
+  font-size: 1.5em;
+  margin-right: 20%;
+  margin-left: 20%;
 }
-
-/*.profile-info {
-  color: brown;
-  padding: 25px;
-  position: relative;
-  margin-top: 15px;
-}*/
 
 .contact-icons {
   text-align: center;
@@ -106,7 +97,7 @@ body {
 .profile-pic {
   border-radius: 50%;
   position: absolute;
-  top: 255px;
+  top: 365px;
   left: 0;
   right: 0;
   margin: auto;
@@ -114,4 +105,22 @@ body {
   max-width: 120px;
   border: solid;
   border-width: 1px;
+}
+
+.projects-row {
+  background-color: gray;
+  font-family: Futura, Trebuchet;
+  padding: 5px;
+  margin-top: -70px;
+}
+
+.project-images {
+  height: 200px;
+  width: 200px;
+}
+
+.about-section {
+  margin-top: -70px;
+  margin-bottom: -10px;
+  padding: 5px;
 }
