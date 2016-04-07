@@ -94,6 +94,10 @@ body {
   margin-left: 30%;
 }
 
+/*.profile-card-one h2 {
+  color: #df4078;
+}*/
+
 .profile-card-two {
   background-color: #f0d151;
   margin-bottom: 10px;
@@ -104,6 +108,10 @@ body {
   margin-left: 30%;
 }
 
+/*.profile-card-two h2 {
+  color: #f0d151;
+}*/
+
 .profile-card-three {
   background-color: #8DC63F;
   margin-bottom: 80px;
@@ -113,6 +121,10 @@ body {
   margin-right: 30%;
   margin-left: 30%;
 }
+
+/*.profile-card-three h2 {
+  color: #8DC63F;
+}*/
 
 .contact-icons {
   text-align: center;
