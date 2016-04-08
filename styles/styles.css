@@ -53,10 +53,10 @@ body {
 
 .row-bottom {
   background-color: #d2a484;
-  padding-top: 100px;
+  padding-top: 110px;
   padding-right: 60px;
   padding-left: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -69,6 +69,11 @@ body {
   font-size: 1.5em;
   margin-right: 30%;
   margin-left: 30%;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.profile-card-one:hover {
+  background-color: #df4078;
 }
 
 .profile-card-two {
@@ -79,6 +84,11 @@ body {
   font-size: 1.5em;
   margin-right: 30%;
   margin-left: 30%;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.profile-card-two:hover {
+  background-color: #f0d151;
 }
 
 .profile-card-three {
@@ -89,6 +99,11 @@ body {
   font-size: 1.5em;
   margin-right: 30%;
   margin-left: 30%;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.profile-card-three:hover {
+  background-color: #8DC63F;
 }
 
 .contact-icons {
@@ -96,10 +111,14 @@ body {
   letter-spacing: 10px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .profile-pic {
   border-radius: 50%;
   position: absolute;
-  top: 295px;
+  top: 310px;
   left: 0;
   right: 0;
   margin: auto;
