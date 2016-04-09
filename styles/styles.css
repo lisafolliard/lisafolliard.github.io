@@ -1,7 +1,7 @@
 h1 {
   font-family: Futura, Trebuchet;
   font-size: 2.5em;
-  color: #000000;
+  color: #424242;
   text-align: center;
   margin-top: 5px;
   margin-bottom: -20px;
@@ -16,12 +16,25 @@ h2 {
   letter-spacing: 2px;
 }
 
-p {
+h3 {
   font-family: Futura, Trebuchet;
-  font-size: 1em;
-  color: #000000;
+  font-size: 1.5em;
+  color: #424242;
   text-align: center;
   margin-top: -2%;
+}
+
+p {
+  font-family: Futura, Trebuchet;
+  font-size: 1.25em;
+  color: #424242;
+  text-align: center;
+  margin-top: -2%;
+}
+
+ul, li {
+  font-family: Futura, Trebuchet;
+  margin: auto;
 }
 
 #title-text {
@@ -47,6 +60,8 @@ body {
 .row-top {
   background-color: #eadde1;
   padding: 5px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -118,7 +133,7 @@ a:link {
 .profile-pic {
   border-radius: 50%;
   position: absolute;
-  top: 310px;
+  top: 270px;
   left: 0;
   right: 0;
   margin: auto;
@@ -144,4 +159,6 @@ a:link {
   margin-top: -70px;
   margin-bottom: -10px;
   padding: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
