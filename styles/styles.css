@@ -24,6 +24,14 @@ h3 {
   margin-top: -2%;
 }
 
+h4 {
+  margin: -60px;
+  padding: -60px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  hover: none;
+}
+
 p {
   font-family: 'Lato', sans-serif;
   /*font-size: 1.5em;*/
@@ -70,13 +78,16 @@ p {
   margin-left: 20px;
 }
 
+.fa h4 {
+  color: #424242;
+}
+
 .fa-tree:hover {
     color: #df4078;
 }
 
 body {
-  /*background-color: #f0d151;*/
-  background-color: #d2a484;
+  background-color: #f0f0f0;
 }
 
 .container-fluid {
@@ -87,13 +98,14 @@ body {
   background-color: #eadde1;
   padding: 5px;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   margin-left: -15px;
   margin-right: -15px;
+  overflow-x: hidden;
 }
 
 .row-bottom {
-  background-color: #d2a484;
+  background-color: #f0f0f0;
   padding-top: 120px;
   padding-right: 60px;
   padding-left: 60px;
@@ -187,18 +199,16 @@ a:link {
   width: 175px;
   line-height: 175px;
   text-align: center;
-  background-color: #eadde1;
+  padding: 0px;
 }
 
 .about-section p {
-  margin-top: -75px;
+  margin-top: -90px;
   margin-bottom: -10px;
   padding-left: 10%;
   padding-right: 10%;
   font-size: 18px;
   text-align: left;
-  /*word-wrap: break-word;*/
-  /*display: block;*/
 }
 
 .about-section ul, li {
@@ -208,8 +218,8 @@ a:link {
   text-align: left;
   font-size: 18px;
   list-style-type: none;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .about-section h2 {
@@ -219,6 +229,6 @@ a:link {
   margin-bottom: 5px;
   letter-spacing: 2px;
   font-family: 'Lato', sans-serif;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
