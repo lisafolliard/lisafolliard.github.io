@@ -1,8 +1,8 @@
 # Lisa Folliard website
 
-##### March 11, 2016
+#### March 11, 2016
 
-#### By Lisa Folliard
+#### By _**Lisa Folliard**_
 
 ## Setup
 
@@ -15,7 +15,7 @@ Type lisafolliard.github.io in your web browser to open application
 
 ### Legal
 
-Copyright (c) 2016 Lisa Folliard
+Copyright (c) 2016 **_Lisa Folliard_**
 
 This software is licensed under the MIT license.
 
