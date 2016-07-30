@@ -6,7 +6,7 @@
 
 ## Setup
 
-Type lisafolliard.github.io in your web browser to open application
+Type http://lisafolliard.github.io in your web browser to open application
 
 ## Technologies Used
 
